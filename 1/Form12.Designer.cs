@@ -34,6 +34,15 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_empleado = new System.Windows.Forms.Label();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.lbl_numeroTrabjador = new System.Windows.Forms.Label();
+            this.lbl_fechaInicio = new System.Windows.Forms.Label();
+            this.lbl_fechaTermino = new System.Windows.Forms.Label();
+            this.txt_numeroTrabajador = new System.Windows.Forms.TextBox();
+            this.txt_fechaInicio = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_generar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -103,11 +112,112 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // lbl_empleado
+            // 
+            this.lbl_empleado.AutoSize = true;
+            this.lbl_empleado.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_empleado.ForeColor = System.Drawing.Color.White;
+            this.lbl_empleado.Location = new System.Drawing.Point(248, 114);
+            this.lbl_empleado.Name = "lbl_empleado";
+            this.lbl_empleado.Size = new System.Drawing.Size(120, 22);
+            this.lbl_empleado.TabIndex = 12;
+            this.lbl_empleado.Text = "EMPLEADO";
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.ForeColor = System.Drawing.Color.White;
+            this.btn_salir.Location = new System.Drawing.Point(450, 108);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(135, 35);
+            this.btn_salir.TabIndex = 13;
+            this.btn_salir.Text = "SALIR";
+            this.btn_salir.UseVisualStyleBackColor = false;
+            // 
+            // lbl_numeroTrabjador
+            // 
+            this.lbl_numeroTrabjador.AutoSize = true;
+            this.lbl_numeroTrabjador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_numeroTrabjador.ForeColor = System.Drawing.Color.White;
+            this.lbl_numeroTrabjador.Location = new System.Drawing.Point(55, 180);
+            this.lbl_numeroTrabjador.Name = "lbl_numeroTrabjador";
+            this.lbl_numeroTrabjador.Size = new System.Drawing.Size(221, 19);
+            this.lbl_numeroTrabjador.TabIndex = 14;
+            this.lbl_numeroTrabjador.Text = "NUMERO DE TRABAJADOR ";
+            // 
+            // lbl_fechaInicio
+            // 
+            this.lbl_fechaInicio.AutoSize = true;
+            this.lbl_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaInicio.ForeColor = System.Drawing.Color.White;
+            this.lbl_fechaInicio.Location = new System.Drawing.Point(55, 210);
+            this.lbl_fechaInicio.Name = "lbl_fechaInicio";
+            this.lbl_fechaInicio.Size = new System.Drawing.Size(141, 19);
+            this.lbl_fechaInicio.TabIndex = 15;
+            this.lbl_fechaInicio.Text = "FECHA DE INICIO";
+            // 
+            // lbl_fechaTermino
+            // 
+            this.lbl_fechaTermino.AutoSize = true;
+            this.lbl_fechaTermino.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaTermino.ForeColor = System.Drawing.Color.White;
+            this.lbl_fechaTermino.Location = new System.Drawing.Point(55, 240);
+            this.lbl_fechaTermino.Name = "lbl_fechaTermino";
+            this.lbl_fechaTermino.Size = new System.Drawing.Size(165, 19);
+            this.lbl_fechaTermino.TabIndex = 16;
+            this.lbl_fechaTermino.Text = "FECHA DE TERMINO";
+            // 
+            // txt_numeroTrabajador
+            // 
+            this.txt_numeroTrabajador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_numeroTrabajador.Location = new System.Drawing.Point(307, 180);
+            this.txt_numeroTrabajador.Name = "txt_numeroTrabajador";
+            this.txt_numeroTrabajador.Size = new System.Drawing.Size(140, 20);
+            this.txt_numeroTrabajador.TabIndex = 17;
+            // 
+            // txt_fechaInicio
+            // 
+            this.txt_fechaInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_fechaInicio.Location = new System.Drawing.Point(307, 210);
+            this.txt_fechaInicio.Name = "txt_fechaInicio";
+            this.txt_fechaInicio.Size = new System.Drawing.Size(140, 20);
+            this.txt_fechaInicio.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.textBox1.Location = new System.Drawing.Point(307, 240);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(140, 20);
+            this.textBox1.TabIndex = 19;
+            // 
+            // btn_generar
+            // 
+            this.btn_generar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_generar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generar.ForeColor = System.Drawing.Color.White;
+            this.btn_generar.Location = new System.Drawing.Point(232, 324);
+            this.btn_generar.Name = "btn_generar";
+            this.btn_generar.Size = new System.Drawing.Size(135, 35);
+            this.btn_generar.TabIndex = 20;
+            this.btn_generar.Text = "GENERAR";
+            this.btn_generar.UseVisualStyleBackColor = false;
+            // 
             // Form12
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.btn_generar);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_fechaInicio);
+            this.Controls.Add(this.txt_numeroTrabajador);
+            this.Controls.Add(this.lbl_fechaTermino);
+            this.Controls.Add(this.lbl_fechaInicio);
+            this.Controls.Add(this.lbl_numeroTrabjador);
+            this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.lbl_empleado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -135,5 +245,14 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_empleado;
+        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Label lbl_numeroTrabjador;
+        private System.Windows.Forms.Label lbl_fechaInicio;
+        private System.Windows.Forms.Label lbl_fechaTermino;
+        private System.Windows.Forms.TextBox txt_numeroTrabajador;
+        private System.Windows.Forms.TextBox txt_fechaInicio;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_generar;
     }
 }

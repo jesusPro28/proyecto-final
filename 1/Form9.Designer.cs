@@ -34,6 +34,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_reportes = new System.Windows.Forms.Label();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.btn_incidencias = new System.Windows.Forms.Button();
+            this.btn_generacionDeReportes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -103,11 +107,62 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // lbl_reportes
+            // 
+            this.lbl_reportes.AutoSize = true;
+            this.lbl_reportes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_reportes.ForeColor = System.Drawing.Color.White;
+            this.lbl_reportes.Location = new System.Drawing.Point(253, 138);
+            this.lbl_reportes.Name = "lbl_reportes";
+            this.lbl_reportes.Size = new System.Drawing.Size(97, 19);
+            this.lbl_reportes.TabIndex = 12;
+            this.lbl_reportes.Text = "REPORTES";
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.ForeColor = System.Drawing.Color.White;
+            this.btn_salir.Location = new System.Drawing.Point(450, 108);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(135, 35);
+            this.btn_salir.TabIndex = 13;
+            this.btn_salir.Text = "SALIR";
+            this.btn_salir.UseVisualStyleBackColor = false;
+            // 
+            // btn_incidencias
+            // 
+            this.btn_incidencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_incidencias.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_incidencias.ForeColor = System.Drawing.Color.White;
+            this.btn_incidencias.Location = new System.Drawing.Point(77, 240);
+            this.btn_incidencias.Name = "btn_incidencias";
+            this.btn_incidencias.Size = new System.Drawing.Size(135, 34);
+            this.btn_incidencias.TabIndex = 14;
+            this.btn_incidencias.Text = "INCIDENCIAS";
+            this.btn_incidencias.UseVisualStyleBackColor = false;
+            // 
+            // btn_generacionDeReportes
+            // 
+            this.btn_generacionDeReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_generacionDeReportes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generacionDeReportes.ForeColor = System.Drawing.Color.White;
+            this.btn_generacionDeReportes.Location = new System.Drawing.Point(300, 240);
+            this.btn_generacionDeReportes.Name = "btn_generacionDeReportes";
+            this.btn_generacionDeReportes.Size = new System.Drawing.Size(270, 34);
+            this.btn_generacionDeReportes.TabIndex = 15;
+            this.btn_generacionDeReportes.Text = "GENERACION DE REPORTES";
+            this.btn_generacionDeReportes.UseVisualStyleBackColor = false;
+            // 
             // Form9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.btn_generacionDeReportes);
+            this.Controls.Add(this.btn_incidencias);
+            this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.lbl_reportes);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -135,5 +190,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_reportes;
+        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Button btn_incidencias;
+        private System.Windows.Forms.Button btn_generacionDeReportes;
     }
 }

@@ -34,6 +34,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lbl_generacionReportes = new System.Windows.Forms.Label();
+            this.cmb_seleccionar = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -103,11 +106,50 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(450, 108);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 35);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "SALIR";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // lbl_generacionReportes
+            // 
+            this.lbl_generacionReportes.AutoSize = true;
+            this.lbl_generacionReportes.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_generacionReportes.ForeColor = System.Drawing.Color.White;
+            this.lbl_generacionReportes.Location = new System.Drawing.Point(173, 165);
+            this.lbl_generacionReportes.Name = "lbl_generacionReportes";
+            this.lbl_generacionReportes.Size = new System.Drawing.Size(283, 22);
+            this.lbl_generacionReportes.TabIndex = 13;
+            this.lbl_generacionReportes.Text = "GENERACION DE REPORTES";
+            // 
+            // cmb_seleccionar
+            // 
+            this.cmb_seleccionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.cmb_seleccionar.FormattingEnabled = true;
+            this.cmb_seleccionar.Items.AddRange(new object[] {
+            "EMPLEADO",
+            "REPORTE GENERAL"});
+            this.cmb_seleccionar.Location = new System.Drawing.Point(200, 260);
+            this.cmb_seleccionar.Name = "cmb_seleccionar";
+            this.cmb_seleccionar.Size = new System.Drawing.Size(117, 21);
+            this.cmb_seleccionar.TabIndex = 14;
+            this.cmb_seleccionar.Text = "SELLECCIONAR";
+            // 
             // Form11
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.cmb_seleccionar);
+            this.Controls.Add(this.lbl_generacionReportes);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -135,5 +177,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl_generacionReportes;
+        private System.Windows.Forms.ComboBox cmb_seleccionar;
     }
 }

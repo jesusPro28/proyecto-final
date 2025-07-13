@@ -34,6 +34,30 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_modificar = new System.Windows.Forms.Label();
+            this.lbl_num_trabajador = new System.Windows.Forms.Label();
+            this.lbl_puesto = new System.Windows.Forms.Label();
+            this.lbl_departamento = new System.Windows.Forms.Label();
+            this.lbl_turno = new System.Windows.Forms.Label();
+            this.lbl_Lunes = new System.Windows.Forms.Label();
+            this.lbl_martes = new System.Windows.Forms.Label();
+            this.lbl_miercoles = new System.Windows.Forms.Label();
+            this.lbl_jueves = new System.Windows.Forms.Label();
+            this.lbl_viernes = new System.Windows.Forms.Label();
+            this.Txt_numeroDeTrabajador = new System.Windows.Forms.TextBox();
+            this.txt_puesto = new System.Windows.Forms.TextBox();
+            this.txt_departamento = new System.Windows.Forms.TextBox();
+            this.txt_turno = new System.Windows.Forms.TextBox();
+            this.txt_lunesEntrada = new System.Windows.Forms.TextBox();
+            this.txt_martesEntrada = new System.Windows.Forms.TextBox();
+            this.txt_miercolesEntrada = new System.Windows.Forms.TextBox();
+            this.txt_juevesEntrada = new System.Windows.Forms.TextBox();
+            this.txt_viernesEntrada = new System.Windows.Forms.TextBox();
+            this.txt_lunesSalida = new System.Windows.Forms.TextBox();
+            this.txt_martesSalida = new System.Windows.Forms.TextBox();
+            this.txt_miercolesSalida = new System.Windows.Forms.TextBox();
+            this.txt_juevesSalida = new System.Windows.Forms.TextBox();
+            this.txt_viernesSalida = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -103,11 +127,259 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // lbl_modificar
+            // 
+            this.lbl_modificar.AutoSize = true;
+            this.lbl_modificar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_modificar.ForeColor = System.Drawing.Color.White;
+            this.lbl_modificar.Location = new System.Drawing.Point(251, 107);
+            this.lbl_modificar.Name = "lbl_modificar";
+            this.lbl_modificar.Size = new System.Drawing.Size(129, 22);
+            this.lbl_modificar.TabIndex = 12;
+            this.lbl_modificar.Text = "MODIFICAR ";
+            // 
+            // lbl_num_trabajador
+            // 
+            this.lbl_num_trabajador.AutoSize = true;
+            this.lbl_num_trabajador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_num_trabajador.ForeColor = System.Drawing.Color.White;
+            this.lbl_num_trabajador.Location = new System.Drawing.Point(17, 140);
+            this.lbl_num_trabajador.Name = "lbl_num_trabajador";
+            this.lbl_num_trabajador.Size = new System.Drawing.Size(217, 19);
+            this.lbl_num_trabajador.TabIndex = 13;
+            this.lbl_num_trabajador.Text = "NUMERO DE TRABAJADOR";
+            // 
+            // lbl_puesto
+            // 
+            this.lbl_puesto.AutoSize = true;
+            this.lbl_puesto.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_puesto.ForeColor = System.Drawing.Color.White;
+            this.lbl_puesto.Location = new System.Drawing.Point(17, 170);
+            this.lbl_puesto.Name = "lbl_puesto";
+            this.lbl_puesto.Size = new System.Drawing.Size(71, 19);
+            this.lbl_puesto.TabIndex = 14;
+            this.lbl_puesto.Text = "PUESTO";
+            // 
+            // lbl_departamento
+            // 
+            this.lbl_departamento.AutoSize = true;
+            this.lbl_departamento.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_departamento.ForeColor = System.Drawing.Color.White;
+            this.lbl_departamento.Location = new System.Drawing.Point(17, 200);
+            this.lbl_departamento.Name = "lbl_departamento";
+            this.lbl_departamento.Size = new System.Drawing.Size(137, 19);
+            this.lbl_departamento.TabIndex = 15;
+            this.lbl_departamento.Text = "DEPARTAMENTO";
+            // 
+            // lbl_turno
+            // 
+            this.lbl_turno.AutoSize = true;
+            this.lbl_turno.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_turno.ForeColor = System.Drawing.Color.White;
+            this.lbl_turno.Location = new System.Drawing.Point(17, 230);
+            this.lbl_turno.Name = "lbl_turno";
+            this.lbl_turno.Size = new System.Drawing.Size(65, 19);
+            this.lbl_turno.TabIndex = 16;
+            this.lbl_turno.Text = "TURNO";
+            // 
+            // lbl_Lunes
+            // 
+            this.lbl_Lunes.AutoSize = true;
+            this.lbl_Lunes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Lunes.ForeColor = System.Drawing.Color.White;
+            this.lbl_Lunes.Location = new System.Drawing.Point(17, 260);
+            this.lbl_Lunes.Name = "lbl_Lunes";
+            this.lbl_Lunes.Size = new System.Drawing.Size(66, 19);
+            this.lbl_Lunes.TabIndex = 17;
+            this.lbl_Lunes.Text = "LUNES ";
+            // 
+            // lbl_martes
+            // 
+            this.lbl_martes.AutoSize = true;
+            this.lbl_martes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_martes.ForeColor = System.Drawing.Color.White;
+            this.lbl_martes.Location = new System.Drawing.Point(17, 290);
+            this.lbl_martes.Name = "lbl_martes";
+            this.lbl_martes.Size = new System.Drawing.Size(73, 19);
+            this.lbl_martes.TabIndex = 18;
+            this.lbl_martes.Text = "MARTES";
+            // 
+            // lbl_miercoles
+            // 
+            this.lbl_miercoles.AutoSize = true;
+            this.lbl_miercoles.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_miercoles.ForeColor = System.Drawing.Color.White;
+            this.lbl_miercoles.Location = new System.Drawing.Point(17, 320);
+            this.lbl_miercoles.Name = "lbl_miercoles";
+            this.lbl_miercoles.Size = new System.Drawing.Size(102, 19);
+            this.lbl_miercoles.TabIndex = 19;
+            this.lbl_miercoles.Text = "MIERCOLES";
+            // 
+            // lbl_jueves
+            // 
+            this.lbl_jueves.AutoSize = true;
+            this.lbl_jueves.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_jueves.ForeColor = System.Drawing.Color.White;
+            this.lbl_jueves.Location = new System.Drawing.Point(17, 350);
+            this.lbl_jueves.Name = "lbl_jueves";
+            this.lbl_jueves.Size = new System.Drawing.Size(68, 19);
+            this.lbl_jueves.TabIndex = 20;
+            this.lbl_jueves.Text = "JUEVES";
+            // 
+            // lbl_viernes
+            // 
+            this.lbl_viernes.AutoSize = true;
+            this.lbl_viernes.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_viernes.ForeColor = System.Drawing.Color.White;
+            this.lbl_viernes.Location = new System.Drawing.Point(17, 380);
+            this.lbl_viernes.Name = "lbl_viernes";
+            this.lbl_viernes.Size = new System.Drawing.Size(77, 19);
+            this.lbl_viernes.TabIndex = 21;
+            this.lbl_viernes.Text = "VIERNES";
+            // 
+            // Txt_numeroDeTrabajador
+            // 
+            this.Txt_numeroDeTrabajador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.Txt_numeroDeTrabajador.ForeColor = System.Drawing.Color.Black;
+            this.Txt_numeroDeTrabajador.Location = new System.Drawing.Point(269, 140);
+            this.Txt_numeroDeTrabajador.Name = "Txt_numeroDeTrabajador";
+            this.Txt_numeroDeTrabajador.Size = new System.Drawing.Size(140, 20);
+            this.Txt_numeroDeTrabajador.TabIndex = 22;
+            // 
+            // txt_puesto
+            // 
+            this.txt_puesto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_puesto.ForeColor = System.Drawing.Color.Black;
+            this.txt_puesto.Location = new System.Drawing.Point(269, 170);
+            this.txt_puesto.Name = "txt_puesto";
+            this.txt_puesto.Size = new System.Drawing.Size(140, 20);
+            this.txt_puesto.TabIndex = 23;
+            // 
+            // txt_departamento
+            // 
+            this.txt_departamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_departamento.Location = new System.Drawing.Point(269, 200);
+            this.txt_departamento.Name = "txt_departamento";
+            this.txt_departamento.Size = new System.Drawing.Size(140, 20);
+            this.txt_departamento.TabIndex = 24;
+            // 
+            // txt_turno
+            // 
+            this.txt_turno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_turno.Location = new System.Drawing.Point(269, 230);
+            this.txt_turno.Name = "txt_turno";
+            this.txt_turno.Size = new System.Drawing.Size(140, 20);
+            this.txt_turno.TabIndex = 25;
+            // 
+            // txt_lunesEntrada
+            // 
+            this.txt_lunesEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_lunesEntrada.Location = new System.Drawing.Point(269, 260);
+            this.txt_lunesEntrada.Name = "txt_lunesEntrada";
+            this.txt_lunesEntrada.Size = new System.Drawing.Size(140, 20);
+            this.txt_lunesEntrada.TabIndex = 26;
+            // 
+            // txt_martesEntrada
+            // 
+            this.txt_martesEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_martesEntrada.Location = new System.Drawing.Point(269, 290);
+            this.txt_martesEntrada.Name = "txt_martesEntrada";
+            this.txt_martesEntrada.Size = new System.Drawing.Size(140, 20);
+            this.txt_martesEntrada.TabIndex = 27;
+            // 
+            // txt_miercolesEntrada
+            // 
+            this.txt_miercolesEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_miercolesEntrada.Location = new System.Drawing.Point(269, 320);
+            this.txt_miercolesEntrada.Name = "txt_miercolesEntrada";
+            this.txt_miercolesEntrada.Size = new System.Drawing.Size(140, 20);
+            this.txt_miercolesEntrada.TabIndex = 29;
+            // 
+            // txt_juevesEntrada
+            // 
+            this.txt_juevesEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_juevesEntrada.Location = new System.Drawing.Point(269, 350);
+            this.txt_juevesEntrada.Name = "txt_juevesEntrada";
+            this.txt_juevesEntrada.Size = new System.Drawing.Size(140, 20);
+            this.txt_juevesEntrada.TabIndex = 30;
+            // 
+            // txt_viernesEntrada
+            // 
+            this.txt_viernesEntrada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_viernesEntrada.Location = new System.Drawing.Point(269, 380);
+            this.txt_viernesEntrada.Name = "txt_viernesEntrada";
+            this.txt_viernesEntrada.Size = new System.Drawing.Size(140, 20);
+            this.txt_viernesEntrada.TabIndex = 31;
+            // 
+            // txt_lunesSalida
+            // 
+            this.txt_lunesSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_lunesSalida.Location = new System.Drawing.Point(432, 260);
+            this.txt_lunesSalida.Name = "txt_lunesSalida";
+            this.txt_lunesSalida.Size = new System.Drawing.Size(140, 20);
+            this.txt_lunesSalida.TabIndex = 32;
+            // 
+            // txt_martesSalida
+            // 
+            this.txt_martesSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_martesSalida.Location = new System.Drawing.Point(432, 290);
+            this.txt_martesSalida.Name = "txt_martesSalida";
+            this.txt_martesSalida.Size = new System.Drawing.Size(140, 20);
+            this.txt_martesSalida.TabIndex = 33;
+            // 
+            // txt_miercolesSalida
+            // 
+            this.txt_miercolesSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_miercolesSalida.Location = new System.Drawing.Point(432, 320);
+            this.txt_miercolesSalida.Name = "txt_miercolesSalida";
+            this.txt_miercolesSalida.Size = new System.Drawing.Size(140, 20);
+            this.txt_miercolesSalida.TabIndex = 34;
+            // 
+            // txt_juevesSalida
+            // 
+            this.txt_juevesSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_juevesSalida.Location = new System.Drawing.Point(432, 350);
+            this.txt_juevesSalida.Name = "txt_juevesSalida";
+            this.txt_juevesSalida.Size = new System.Drawing.Size(140, 20);
+            this.txt_juevesSalida.TabIndex = 35;
+            // 
+            // txt_viernesSalida
+            // 
+            this.txt_viernesSalida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_viernesSalida.Location = new System.Drawing.Point(432, 380);
+            this.txt_viernesSalida.Name = "txt_viernesSalida";
+            this.txt_viernesSalida.Size = new System.Drawing.Size(140, 20);
+            this.txt_viernesSalida.TabIndex = 36;
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.txt_viernesSalida);
+            this.Controls.Add(this.txt_juevesSalida);
+            this.Controls.Add(this.txt_miercolesSalida);
+            this.Controls.Add(this.txt_martesSalida);
+            this.Controls.Add(this.txt_lunesSalida);
+            this.Controls.Add(this.txt_viernesEntrada);
+            this.Controls.Add(this.txt_juevesEntrada);
+            this.Controls.Add(this.txt_miercolesEntrada);
+            this.Controls.Add(this.txt_martesEntrada);
+            this.Controls.Add(this.txt_lunesEntrada);
+            this.Controls.Add(this.txt_turno);
+            this.Controls.Add(this.txt_departamento);
+            this.Controls.Add(this.txt_puesto);
+            this.Controls.Add(this.Txt_numeroDeTrabajador);
+            this.Controls.Add(this.lbl_viernes);
+            this.Controls.Add(this.lbl_jueves);
+            this.Controls.Add(this.lbl_miercoles);
+            this.Controls.Add(this.lbl_martes);
+            this.Controls.Add(this.lbl_Lunes);
+            this.Controls.Add(this.lbl_turno);
+            this.Controls.Add(this.lbl_departamento);
+            this.Controls.Add(this.lbl_puesto);
+            this.Controls.Add(this.lbl_num_trabajador);
+            this.Controls.Add(this.lbl_modificar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -135,5 +407,29 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_modificar;
+        private System.Windows.Forms.Label lbl_num_trabajador;
+        private System.Windows.Forms.Label lbl_puesto;
+        private System.Windows.Forms.Label lbl_departamento;
+        private System.Windows.Forms.Label lbl_turno;
+        private System.Windows.Forms.Label lbl_Lunes;
+        private System.Windows.Forms.Label lbl_martes;
+        private System.Windows.Forms.Label lbl_miercoles;
+        private System.Windows.Forms.Label lbl_jueves;
+        private System.Windows.Forms.Label lbl_viernes;
+        private System.Windows.Forms.TextBox Txt_numeroDeTrabajador;
+        private System.Windows.Forms.TextBox txt_puesto;
+        private System.Windows.Forms.TextBox txt_departamento;
+        private System.Windows.Forms.TextBox txt_turno;
+        private System.Windows.Forms.TextBox txt_lunesEntrada;
+        private System.Windows.Forms.TextBox txt_martesEntrada;
+        private System.Windows.Forms.TextBox txt_miercolesEntrada;
+        private System.Windows.Forms.TextBox txt_juevesEntrada;
+        private System.Windows.Forms.TextBox txt_viernesEntrada;
+        private System.Windows.Forms.TextBox txt_lunesSalida;
+        private System.Windows.Forms.TextBox txt_martesSalida;
+        private System.Windows.Forms.TextBox txt_miercolesSalida;
+        private System.Windows.Forms.TextBox txt_juevesSalida;
+        private System.Windows.Forms.TextBox txt_viernesSalida;
     }
 }
