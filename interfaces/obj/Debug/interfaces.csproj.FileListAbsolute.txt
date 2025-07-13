@@ -1,0 +1,14 @@
+C:\Users\crist\source\repos\interfaces\bin\Debug\interfaces.exe.config
+C:\Users\crist\source\repos\interfaces\bin\Debug\interfaces.exe
+C:\Users\crist\source\repos\interfaces\bin\Debug\interfaces.pdb
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.csproj.AssemblyReference.cache
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.Form3.resources
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.Form4.resources
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.Form5.resources
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.Properties.Resources.resources
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.csproj.GenerateResource.cache
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.csproj.CoreCompileInputs.cache
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.exe
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.pdb
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.Frm_modificar.resources
+C:\Users\crist\source\repos\interfaces\obj\Debug\interfaces.frm_reportes.resources
