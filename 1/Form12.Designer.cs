@@ -197,7 +197,7 @@
             this.btn_generar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
             this.btn_generar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_generar.ForeColor = System.Drawing.Color.White;
-            this.btn_generar.Location = new System.Drawing.Point(232, 324);
+            this.btn_generar.Location = new System.Drawing.Point(450, 431);
             this.btn_generar.Name = "btn_generar";
             this.btn_generar.Size = new System.Drawing.Size(135, 35);
             this.btn_generar.TabIndex = 20;

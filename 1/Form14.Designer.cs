@@ -34,6 +34,13 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.btn_generar = new System.Windows.Forms.Button();
+            this.lbl_fechaTermino = new System.Windows.Forms.Label();
+            this.lbl_fechaInicio = new System.Windows.Forms.Label();
+            this.txt_fechaTermino = new System.Windows.Forms.TextBox();
+            this.txt_fechaInicio = new System.Windows.Forms.TextBox();
+            this.lbl_general = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -103,12 +110,92 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_salir
+            // 
+            this.btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.ForeColor = System.Drawing.Color.White;
+            this.btn_salir.Location = new System.Drawing.Point(449, 110);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(135, 35);
+            this.btn_salir.TabIndex = 23;
+            this.btn_salir.Text = "SALIR";
+            this.btn_salir.UseVisualStyleBackColor = false;
+            // 
+            // btn_generar
+            // 
+            this.btn_generar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_generar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generar.ForeColor = System.Drawing.Color.White;
+            this.btn_generar.Location = new System.Drawing.Point(232, 324);
+            this.btn_generar.Name = "btn_generar";
+            this.btn_generar.Size = new System.Drawing.Size(135, 35);
+            this.btn_generar.TabIndex = 24;
+            this.btn_generar.Text = "GENERAR";
+            this.btn_generar.UseVisualStyleBackColor = false;
+            // 
+            // lbl_fechaTermino
+            // 
+            this.lbl_fechaTermino.AutoSize = true;
+            this.lbl_fechaTermino.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaTermino.ForeColor = System.Drawing.Color.White;
+            this.lbl_fechaTermino.Location = new System.Drawing.Point(103, 210);
+            this.lbl_fechaTermino.Name = "lbl_fechaTermino";
+            this.lbl_fechaTermino.Size = new System.Drawing.Size(139, 19);
+            this.lbl_fechaTermino.TabIndex = 25;
+            this.lbl_fechaTermino.Text = "FECHA TERMINO";
+            // 
+            // lbl_fechaInicio
+            // 
+            this.lbl_fechaInicio.AutoSize = true;
+            this.lbl_fechaInicio.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fechaInicio.ForeColor = System.Drawing.Color.White;
+            this.lbl_fechaInicio.Location = new System.Drawing.Point(103, 180);
+            this.lbl_fechaInicio.Name = "lbl_fechaInicio";
+            this.lbl_fechaInicio.Size = new System.Drawing.Size(115, 19);
+            this.lbl_fechaInicio.TabIndex = 26;
+            this.lbl_fechaInicio.Text = "FECHA INICIO";
+            // 
+            // txt_fechaTermino
+            // 
+            this.txt_fechaTermino.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_fechaTermino.Location = new System.Drawing.Point(356, 210);
+            this.txt_fechaTermino.Name = "txt_fechaTermino";
+            this.txt_fechaTermino.Size = new System.Drawing.Size(140, 20);
+            this.txt_fechaTermino.TabIndex = 27;
+            // 
+            // txt_fechaInicio
+            // 
+            this.txt_fechaInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_fechaInicio.Location = new System.Drawing.Point(356, 180);
+            this.txt_fechaInicio.Name = "txt_fechaInicio";
+            this.txt_fechaInicio.Size = new System.Drawing.Size(140, 20);
+            this.txt_fechaInicio.TabIndex = 28;
+            // 
+            // lbl_general
+            // 
+            this.lbl_general.AutoSize = true;
+            this.lbl_general.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_general.ForeColor = System.Drawing.Color.White;
+            this.lbl_general.Location = new System.Drawing.Point(248, 114);
+            this.lbl_general.Name = "lbl_general";
+            this.lbl_general.Size = new System.Drawing.Size(104, 22);
+            this.lbl_general.TabIndex = 29;
+            this.lbl_general.Text = "GENERAL";
+            // 
             // Form14
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.lbl_general);
+            this.Controls.Add(this.txt_fechaInicio);
+            this.Controls.Add(this.txt_fechaTermino);
+            this.Controls.Add(this.lbl_fechaInicio);
+            this.Controls.Add(this.lbl_fechaTermino);
+            this.Controls.Add(this.btn_generar);
+            this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -137,5 +224,12 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Button btn_generar;
+        private System.Windows.Forms.Label lbl_fechaTermino;
+        private System.Windows.Forms.Label lbl_fechaInicio;
+        private System.Windows.Forms.TextBox txt_fechaTermino;
+        private System.Windows.Forms.TextBox txt_fechaInicio;
+        private System.Windows.Forms.Label lbl_general;
     }
 }

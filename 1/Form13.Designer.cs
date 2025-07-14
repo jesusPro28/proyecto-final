@@ -34,11 +34,18 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_empleado = new System.Windows.Forms.Label();
+            this.lbl_numeroTrabjador = new System.Windows.Forms.Label();
+            this.txt_numeroTrabajador = new System.Windows.Forms.TextBox();
+            this.btn_generar = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -103,11 +110,79 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // lbl_empleado
+            // 
+            this.lbl_empleado.AutoSize = true;
+            this.lbl_empleado.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_empleado.ForeColor = System.Drawing.Color.White;
+            this.lbl_empleado.Location = new System.Drawing.Point(248, 114);
+            this.lbl_empleado.Name = "lbl_empleado";
+            this.lbl_empleado.Size = new System.Drawing.Size(120, 22);
+            this.lbl_empleado.TabIndex = 13;
+            this.lbl_empleado.Text = "EMPLEADO";
+            // 
+            // lbl_numeroTrabjador
+            // 
+            this.lbl_numeroTrabjador.AutoSize = true;
+            this.lbl_numeroTrabjador.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_numeroTrabjador.ForeColor = System.Drawing.Color.White;
+            this.lbl_numeroTrabjador.Location = new System.Drawing.Point(55, 180);
+            this.lbl_numeroTrabjador.Name = "lbl_numeroTrabjador";
+            this.lbl_numeroTrabjador.Size = new System.Drawing.Size(221, 19);
+            this.lbl_numeroTrabjador.TabIndex = 15;
+            this.lbl_numeroTrabjador.Text = "NUMERO DE TRABAJADOR ";
+            // 
+            // txt_numeroTrabajador
+            // 
+            this.txt_numeroTrabajador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(172)))), ((int)(((byte)(219)))), ((int)(((byte)(192)))));
+            this.txt_numeroTrabajador.Location = new System.Drawing.Point(307, 180);
+            this.txt_numeroTrabajador.Name = "txt_numeroTrabajador";
+            this.txt_numeroTrabajador.Size = new System.Drawing.Size(140, 20);
+            this.txt_numeroTrabajador.TabIndex = 18;
+            // 
+            // btn_generar
+            // 
+            this.btn_generar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_generar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generar.ForeColor = System.Drawing.Color.White;
+            this.btn_generar.Location = new System.Drawing.Point(450, 441);
+            this.btn_generar.Name = "btn_generar";
+            this.btn_generar.Size = new System.Drawing.Size(135, 35);
+            this.btn_generar.TabIndex = 21;
+            this.btn_generar.Text = "GENERAR";
+            this.btn_generar.UseVisualStyleBackColor = false;
+            // 
+            // btn_salir
+            // 
+            this.btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(33)))), ((int)(((byte)(64)))));
+            this.btn_salir.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.ForeColor = System.Drawing.Color.White;
+            this.btn_salir.Location = new System.Drawing.Point(450, 108);
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.Size = new System.Drawing.Size(135, 35);
+            this.btn_salir.TabIndex = 22;
+            this.btn_salir.Text = "SALIR";
+            this.btn_salir.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(1, 149);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(582, 213);
+            this.dataGridView1.TabIndex = 23;
+            // 
             // Form13
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 511);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.btn_generar);
+            this.Controls.Add(this.txt_numeroTrabajador);
+            this.Controls.Add(this.lbl_numeroTrabjador);
+            this.Controls.Add(this.lbl_empleado);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -121,6 +196,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,5 +210,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_empleado;
+        private System.Windows.Forms.Label lbl_numeroTrabjador;
+        private System.Windows.Forms.TextBox txt_numeroTrabajador;
+        private System.Windows.Forms.Button btn_generar;
+        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
